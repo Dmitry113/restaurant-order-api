@@ -4,7 +4,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123
+      POSTGRES_PASSWORD: 
       POSTGRES_DB: restaurant
     ports:
       - "5432:5432"
